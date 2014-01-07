@@ -1,0 +1,145 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+@import "compass/typography/vertical_rhythm" ;
+
+/* Fonts size and line height defaults */
+$base-font-size: 16px; /* Sets the browser default size. */
+$base-line-height: 24px; /* Baseline grid. */
+@include establish-baseline; /* "This is where the magic happens" —Everyone on MTV Cribs. */
+
+
+
+// General styles
+
+body {
+  
+  background: #383737;
+  
+
+
+}
+
+#container  {
+  
+ margin:$base-font-size $base-font-size+8 $base-font-size $base-font-size+8;
+ padding:$base-font-size+10 $base-font-size;
+
+
+
+background-color: white;
+
+width:50%;
+
+}
+
+
+// the H
+
+
+h1 {
+  
+  font-family: 'Bowlby One SC', cursive;
+  font-weight:bold;
+@include adjust-font-size-to(36px); 
+  margin: rhythm(1, 36px) 0 rhythm(2, 66px) 0; /* 1 line below */
+
+@include trailing-border(2px, 1);
+padding:  0; /* 1 line below */
+
+}
+
+h2 {
+  
+  
+font-family: 'Alegreya Sans', sans-serif;
+
+  @include adjust-font-size-to(31px); 
+  margin: 0 0 rhythm(1, 41px) 0; /* 2 line above, 1 line below */
+
+}
+
+h3 {
+  
+  
+font-family: 'Alegreya Sans', sans-serif;
+font-weight:500;
+  @include adjust-font-size-to(23px); 
+  margin: rhythm(1, 56px) 0 0 0; /* 2 line above, 1 line below */
+
+}
+
+p {
+  
+font-family: 'Alegreya Sans', sans-serif;
+  @include adjust-font-size-to(18px); 
+  margin: 0; /* we dont need */
+
+}
+
+
+// Navegation
+
+
+nav {
+
+  @include adjust-font-size-to(18px); 
+   margin: rhythm(1, 18px) 0 rhythm(1, 18px) 0; /* 2 line above, 1 line below */
+
+
+p {
+  
+ display:inline;
+  
+  background: yellow ;
+ 
+   @include adjust-font-size-to(18px); 
+    padding:rhythm(1, 38px); 
+    margin: rhythm(1, 48px) rhythm(1, 48px) rhythm(1, 48px) 0; 
+}
+
+a {
+  
+ text-decoration:none;
+ color:gray;
+}
+
+a:hover {
+  
+  color:white;
+  text-decoration:underline;
+}
+
+
+p:hover {
+  
+  color:white;
+  text-decoration:underline;
+ background:#444444;
+}
+
+
+}
+
+
+// Footer
+
+
+footer {
+
+  @include adjust-font-size-to(18px); 
+   margin: rhythm(1, 18px) 0 rhythm(1, 18px) 0; /* 2 line above, 1 line below */
+
+
+p {
+  
+ display:inline;
+
+
+}
+
+}

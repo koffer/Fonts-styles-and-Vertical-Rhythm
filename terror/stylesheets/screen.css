@@ -1,0 +1,184 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* Fonts size and line height defaults */
+/* Sets the browser default size. */
+/* Baseline grid. */
+/* line 61, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 100%;
+}
+
+/* line 64, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+/* "This is where the magic happens" —Everyone on MTV Cribs. */
+/* line 19, ../sass/screen.scss */
+body {
+  background: #000000;
+  font-family: Verdana, sans-serif;
+}
+
+/* line 27, ../sass/screen.scss */
+#container {
+  margin: 16px 24px 16px 24px;
+  padding: 26px 16px;
+  background-color: white;
+  width: 50%;
+}
+
+/* line 44, ../sass/screen.scss */
+h1 {
+  font-family: 'Butcherman', cursive;
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 1.5em;
+  margin: 0.66667em 0 0.4898em 0;
+  /* 1 line below */
+  padding: 0;
+  /* 1 line below */
+}
+
+/* line 56, ../sass/screen.scss */
+h2 {
+  font-family: 'Averia Sans Libre', cursive;
+  font-size: 2.375em;
+  line-height: 1.26316em;
+  margin: 0 0 0.77419em 0;
+  /* 2 line above, 1 line below */
+}
+
+/* line 65, ../sass/screen.scss */
+h3 {
+  font-family: 'Averia Sans Libre', cursive;
+  font-weight: 400;
+  color: red;
+  font-size: 1.4375em;
+  line-height: 2.08696em;
+  margin: 0.72727em 0 0.32877em 0;
+  /* 2 line above, 1 line below */
+}
+
+/* line 76, ../sass/screen.scss */
+p {
+  font-family: arial, serif;
+  font-weight: 100;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0;
+  /* we dont need */
+}
+
+/* line 89, ../sass/screen.scss */
+nav {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 1.5em 0 1.5em 0;
+  /* 2 line above, 1 line below */
+}
+/* line 95, ../sass/screen.scss */
+nav p {
+  display: inline;
+  background: red;
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  padding: 0.63158em;
+  margin: 0.5em 0.5em 0.5em 0;
+}
+/* line 106, ../sass/screen.scss */
+nav a {
+  text-decoration: none;
+  color: white;
+}
+/* line 112, ../sass/screen.scss */
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+/* line 119, ../sass/screen.scss */
+nav p:hover {
+  color: white;
+  text-decoration: underline;
+  background: #444444;
+}
+
+/* line 133, ../sass/screen.scss */
+footer {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  margin: 1.33333em 0 1.33333em 0;
+  /* 2 line above, 1 line below */
+}
+/* line 139, ../sass/screen.scss */
+footer p {
+  display: inline;
+}
